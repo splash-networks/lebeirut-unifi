@@ -4,8 +4,8 @@ require 'header.php';
 require 'config.php';
 
 if (isset($_GET['id'])) {
-  $_SESSION["id"] = $_GET['id'];
-  $_SESSION["ap"] = $_GET['ap'];
+    $_SESSION["id"] = $_GET['id'];
+    $_SESSION["ap"] = $_GET['ap'];
 }
 
 $_SESSION["user_type"] = "new";
@@ -119,7 +119,7 @@ if ($result->num_rows >= 1) {
                 phone: "full_phone",
                 country: "country_code"
             }),
-            utilsScript: "assets/build/js/utils.js"
+            utilsScript: "../assets/build/js/utils.js"
         });
         const errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
         const errorMsg = document.querySelector("#error-msg");
