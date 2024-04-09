@@ -49,7 +49,7 @@ if ($result->num_rows >= 1) {
         <div class="head">
             <br>
             <figure id="logo">
-                <img src="../assets/images/logo-transparent.png">
+                <img src="../assets/images/logo.png">
             </figure>
         </div>
 
