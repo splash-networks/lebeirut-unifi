@@ -25,7 +25,7 @@ if ($result->num_rows >= 1) {
     mysqli_close($con);
 }
 
-?>
+?> 
 <!doctype html>
 <html>
 
@@ -49,14 +49,14 @@ if ($result->num_rows >= 1) {
         <div class="head">
             <br>
             <figure id="logo">
-                <img src="../assets/images/logo.png">
+                <img src="../assets/images/logo-transparent.png">
             </figure>
         </div>
 
         <div class="main">
             <section class="section">
                 <div class="container">
-                    <div id="contact_form" class="content has-text-centered">
+                    <div id="contact_form" class="content has-text-centered clr-primary">
                         Please enter your details for WiFi access
                     </div>
                     <br>
@@ -102,7 +102,7 @@ if ($result->num_rows >= 1) {
                         <!--                        </div>-->
                         <!--                        <br>-->
                         <div class="buttons is-centered">
-                            <button id="btn" class="button is-link">Connect</button>
+                            <button id="btn" class="button btn-primary">Connect</button>
                         </div>
                     </form>
                 </div>

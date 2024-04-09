@@ -7,6 +7,7 @@
   margin: 0 auto;
   max-width: 100%;
   font-family: "Ariel", sans-serif;
+  background: #fdf5e3;
 }
 
 a:link {
@@ -63,4 +64,15 @@ a:link {
   .main {
     height: 80%;
   }
+}
+
+
+.clr-primary{
+  color: #b57f40;
+}
+
+.btn-primary{
+  background: #b57f40;
+  border-color: #b57f40;
+  color: #fff;
 }
